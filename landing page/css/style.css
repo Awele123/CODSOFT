@@ -231,12 +231,12 @@ section.main-bod{
 
 @media screen and (max-width:576px) {
     .text{
-        height: 50vh;
+        height: 60vh;
     
     }
     .image {
       
-      height: 40vh;
+      height: 30vh;
     }
 
 
