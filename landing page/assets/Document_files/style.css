@@ -1,0 +1,149 @@
+.navbar a {
+    color: #f0f0f0!important;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.navbar-brand{
+    position: relative;
+    left: 15%;
+}
+
+.form-control{
+    border-radius: 20px;
+}
+
+.d-flex {
+position: relative;
+right: 15%;
+}
+
+.btn {
+    background-color:white;
+    color: #2c2c2c;
+    border-color: rgb(65, 121, 43);
+    border-radius: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.words{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: #2c2c2c;
+    padding: 0 50px;
+    margin-left: 40px;
+    font-family: "Ubuntu",sans-serif;
+   
+}
+
+.words .graph{
+    font-size: 30px;
+    color: #2c2c2c;
+}
+
+.foodies h1{
+    font-weight:bolder;
+    font-size:80px;
+    color: #f0f0f0;
+}
+
+.dlyt{
+    color: #2c2c2c;
+}
+
+.icons  {
+    display: flex;
+    gap: 10px;
+}  
+
+.icons a {
+    color: #2c2c2c;
+    opacity: 0.4;
+}
+
+.food {
+    object-fit: contain;
+   box-shadow:2px 2px 4px rgba(0, 0, 0, 0.4);
+   border-radius: 50%;
+}
+section.headIntro {
+   padding: 60px;
+   margin: 0 60px;
+}
+
+section.background {
+    background-image: url(../assets/bg\ image.png);
+    height: 100vh;
+    width: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width:auto;
+}
+
+.how {
+    text-align: center;
+    
+}
+
+.bwImages {
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+}
+
+.build > p,
+.doorstep > p,
+.enjoy > p {
+  font-weight: 400;
+}
+
+.build img,
+.doorstep img,
+.enjoy img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+section.wordsToo{
+    display: flex;
+    flex-direction: column;
+   
+}
+.get {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.get .btn{
+    color: white;
+    border-radius: 20px;
+    background-color: #00BF63;
+}
+.get .btn:hover{
+    color:#00BF63;
+    background-color: white;
+}
+
+
+
+section.about-bod{
+    background-image: url(../assets/about.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width:100%;
+}
+.read .btn{
+        color: white;
+        background-color: #00BF63;
+      }
+

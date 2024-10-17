@@ -1,2 +1,2 @@
-This is my first project for my CODSOFT internship.
-Here I havecreated a food product landing page using just HTML and CSS
+This is a responsive landing page for a food company which I built for my codsoft internship.
+For this project I used HTML,CSS and bootstrap to get it have responsive and user friendly UI
