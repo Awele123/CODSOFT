@@ -1,2 +1,2 @@
-This is a responsive landing page for a food company which I built for my codsoft internship.
-For this project I used HTML,CSS and bootstrap to get it have responsive and user friendly UI
+This is a repo for my codsoft internship.
+For this internship, I will use HTML,CSS,bootstrapand Javascript to built my projects- A landing page, A portfolio and A calculator
