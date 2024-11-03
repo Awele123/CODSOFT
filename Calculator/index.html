@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Claculator</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="container-fluid con-width">
-      <div class="calc-body">
-        <div class="row calc-width">
+    <section class="main-container">
+      <div class="container-fluid con-width shadow">
+        <div class="row">
           <div class="col-sm-12">
             <form action="#" name="calc" class="display-main">
               <input
@@ -22,62 +22,81 @@
               />
             </form>
           </div>
-
-          <div class="col-sm-4">
-            <div class="first">
-              <button type="button" class="btn btn-success" id="clear">
-                AC
-              </button>
-              <button type="button" class="btn btn-success" id="one">1</button>
-              <button type="button" class="btn btn-success" id="three">
-                3
-              </button>
-              <button type="button" class="btn btn-success" id="five">5</button>
-              <button type="button" class="btn btn-success" id="seven">
-                7
-              </button>
-              <button type="button" class="btn btn-success" id="nine">9</button>
+          <div class="bod">
+            <div class="col-sm-4">
+              <div class="first">
+                <button type="button" class="btn btn-success" id="clear">
+                  AC
+                </button>
+                <button type="button" class="btn btn-success" id="one">
+                  1
+                </button>
+                <button type="button" class="btn btn-success" id="three">
+                  3
+                </button>
+                <button type="button" class="btn btn-success" id="five">
+                  5
+                </button>
+                <button type="button" class="btn btn-success" id="seven">
+                  7
+                </button>
+                <button type="button" class="btn btn-success" id="nine">
+                  9
+                </button>
+              </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="first">
-              <button type="button" class="btn btn-success" id="percent">
-                %
-              </button>
-              <button type="button" class="btn btn-success" id="two">2</button>
-              <button type="button" class="btn btn-success" id="four">4</button>
-              <button type="button" class="btn btn-success" id="six">6</button>
-              <button type="button" class="btn btn-success" id="eight">
-                8
-              </button>
-              <button type="button" class="btn btn-success" id="zero">0</button>
+            <div class="col-sm-4">
+              <div class="first">
+                <button type="button" class="btn btn-success" id="percent">
+                  %
+                </button>
+                <button type="button" class="btn btn-success" id="two">
+                  2
+                </button>
+                <button type="button" class="btn btn-success" id="four">
+                  4
+                </button>
+                <button type="button" class="btn btn-success" id="six">
+                  6
+                </button>
+                <button type="button" class="btn btn-success" id="eight">
+                  8
+                </button>
+                <button type="button" class="btn btn-success" id="zero">
+                  0
+                </button>
+              </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="first">
-              <button type="button" class="btn btn-success" id="divide">
-                /
-              </button>
-              <button type="button" class="btn btn-success" id="multiply">
-                *
-              </button>
-              <button type="button" class="btn btn-success" id="add">+</button>
-              <button type="button" class="btn btn-success" id="subtract">
-                -
-              </button>
-              <button type="button" class="btn btn-success" id="dot">.</button>
-              <button
-                type="button"
-                class="btn btn-success"
-                onclick="display.value = eval(display.value)"
-              >
-                =
-              </button>
+            <div class="col-sm-4">
+              <div class="first">
+                <button type="button" class="btn btn-success" id="divide">
+                  /
+                </button>
+                <button type="button" class="btn btn-success" id="multiply">
+                  *
+                </button>
+                <button type="button" class="btn btn-success" id="add">
+                  +
+                </button>
+                <button type="button" class="btn btn-success" id="subtract">
+                  -
+                </button>
+                <button type="button" class="btn btn-success" id="dot">
+                  .
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  onclick="display.value = eval(display.value)"
+                >
+                  =
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
   </body>

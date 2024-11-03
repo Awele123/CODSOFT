@@ -9,12 +9,12 @@ body{
     font-style: normal;
 }
 
-.box{
-    border-radius: 20px;
-}
+
 .box {
+    border-radius: 20px;
     color: #00BF63;
 }
+
 .btn {
     background-color:white;
     color:#00BF63;
